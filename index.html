@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="cal-upper-body">
+                <input type="text" class="calc-result" placeholder="0">
+            </div>
+            <div class="cal-lower-body">
+                <div class="row row-1">
+                    <button class="btn btn-1" onclick="addInput('AC')">AC</button>
+                    <button class="btn btn-2" onclick="addInput('%')">%</button>
+                    <button class="btn btn-3" onclick="addInput('DEL')">C
+                        <!-- <i class="fa-solid fa-delete-left"></i> -->
+                    </button>
+                    <button class="btn btn-4" onclick="addInput('/')">/</button>
+                </div>
+
+                <div class="row row-2">
+                    <button class="btn btn-5" onclick="addInput('7')">7</button>
+                    <button class="btn btn-6" onclick="addInput('8')">8</button>
+                    <button class="btn btn-7" onclick="addInput('9')">9</button>
+                    <button class="btn btn-8" onclick="addInput('*')">x</button>
+                </div>
+
+                <div class="row row-3">
+                    <button class="btn btn-9" onclick="addInput('4')">4</button>
+                    <button class="btn btn-10" onclick="addInput('5')">5</button>
+                    <button class="btn btn-11" onclick="addInput('6')">6</button>
+                    <button class="btn btn-12" onclick="addInput('-')">-</button>
+                </div>
+
+                <div class="row row-4">
+                    <button class="btn btn-13" onclick="addInput('1')">1</button>
+                    <button class="btn btn-14" onclick="addInput('2')">2</button>
+                    <button class="btn btn-15" onclick="addInput('3')">3</button>
+                    <button class="btn btn-16" onclick="addInput('+')">+</button>
+                </div>
+                
+                <div class="row row-5">
+                    <button class="btn btn-17" onclick="addInput('00')">00</button>
+                    <button class="btn btn-18" onclick="addInput('0')">0</button>
+                    <button class="btn btn-19" onclick="addInput('.')">.</button>
+                    <button class="btn btn-20" onclick="addInput('=') ">=</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
